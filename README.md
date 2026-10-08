@@ -1,4 +1,4 @@
-# 🎯 Tactical Strike
+# Tactical Strike
 
 > HTML5 tactical shooter · version-driven development · browser-based releases
 
@@ -11,7 +11,7 @@ Tactical Strike is an independent top-down tactical shooter for the browser. Cho
 
 > This is an independent project inspired by the tactical shooter genre. It does not use code, assets, or trademarks from other games.
 
-## 🚀 Play the current build
+## Play the current build
 
 - [![Play V1.0 Prototype](https://img.shields.io/badge/PLAY-V1.0%20PROTOTYPE-38bdf8?style=for-the-badge)](./version/tactical_strike_V1.0%20-Release.html)
 - [![Download releases](https://img.shields.io/badge/DOWNLOAD-GitHub%20Releases-34d399?style=for-the-badge)](https://github.com/MitNak25/tactical-strike/releases)
@@ -29,7 +29,7 @@ Then open the file at:
 http://localhost:8000/version/tactical_strike_V1.0%20-Release.html
 ```
 
-## 🎮 Controls
+## Controls
 
 | Action | Control |
 |---|---|
@@ -44,7 +44,7 @@ http://localhost:8000/version/tactical_strike_V1.0%20-Release.html
 
 The game is currently designed for desktop browsers. A mouse and keyboard are recommended.
 
-## 🧩 Gameplay
+## Gameplay
 
 - Pick a faction from the lobby.
 - Defeat three enemy bots before the round timer reaches zero.
@@ -54,11 +54,11 @@ The game is currently designed for desktop browsers. A mouse and keyboard are re
 - Rounds restart automatically after a win, loss, or timeout.
 - The scoreboard tracks Counter-Terrorist and Terrorist round wins.
 
-## ⚙️ Settings
+## Settings
 
 The prototype includes mouse sensitivity, bot difficulty, and volume controls in the settings screen. These controls are part of the interface prototype and are not yet connected to gameplay logic. They are planned for a future gameplay systems update.
 
-## 📁 Repository structure
+## Repository structure
 
 ```text
 Tactical Strike/
@@ -77,25 +77,25 @@ Tactical Strike/
 └── README.md
 ```
 
-## 🧭 Roadmap
+## Roadmap
 
-### v1.0 Prototype ✅
+### v1.0 Prototype
 
 Playable menu, faction selection, top-down combat, bots, obstacles, rounds, timer, HUD, ammunition, reloading, weapon selection, kill feed, and synthesized audio.
 
-### v1.1 — Gameplay systems 🚧
+### v1.1 — Gameplay systems
 
 Connect settings to the game, add credits and real weapon prices, improve collision resolution, add fire-rate balancing, and make the buy zone affect purchasing.
 
-### v1.2 — Content update 🔭
+### v1.2 — Content update
 
 Additional arenas, bot behaviors, objectives, sound controls, mobile-friendly input, and a clearer round result screen.
 
-### v2.0 — Tactical Strike 🔭
+### v2.0 — Tactical Strike
 
 Expanded game modes, persistent statistics, improved accessibility, polished visuals, and a complete release package.
 
-## 📦 Releases and versioning
+## Releases and versioning
 
 Version folders contain the playable source snapshots. GitHub Releases contain downloadable packages for public builds.
 
@@ -108,15 +108,15 @@ git push origin main --tags
 
 Use [Semantic Versioning](https://semver.org/) for future releases. Do not modify historical builds after publishing; create a new version folder instead.
 
-## 🧑‍💻 Development
+## Development
 
 No build tool or dependency installation is required. The game uses native HTML, CSS, Canvas 2D, and the Web Audio API. A local static server is recommended because it behaves more consistently than opening a file directly.
 
-## 🤝 Contributing
+## Contributing
 
 Bug reports and feature ideas are welcome. Please include your browser, operating system, reproduction steps, and the version you tested.
 
-## 📜 License
+## License
 
 Tactical Strike is released under the **MIT License**. See [`LICENSE`](LICENSE) for the full terms.
 
